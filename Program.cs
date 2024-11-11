@@ -5,9 +5,11 @@ for (int i = 0; i < 5; i++)
 {
     lifo.Push(i);
 }
-Console.WriteLine(lifo.Get());
+Console.WriteLine(lifo.GetLength());
 
-foreach (int i in lifo.stack)
+//lifo.Reverse();
+foreach (int i in lifo.GetAll())
 {
     Console.WriteLine(i);
 }
+Console.ReadLine();
