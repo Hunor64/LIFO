@@ -7,7 +7,8 @@ for (int i = 0; i < 5; i++)
 }
 Console.WriteLine(lifo.GetLength());
 
-//lifo.Reverse();
+lifo.Reverse();
+
 foreach (int i in lifo.GetAll())
 {
     Console.WriteLine(i);

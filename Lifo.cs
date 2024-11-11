@@ -72,12 +72,13 @@ namespace LIFO
         {
             double[] temp = new double[index];
             int tempindex = 0;
-            for (int i = index; i < 0; i--)
+            for (int i = index - 1; i >= 0; i--)
             {
                 temp[tempindex] = stack[i];
                 tempindex++;
             }
             stack = temp;
         }
+
     }
 }
