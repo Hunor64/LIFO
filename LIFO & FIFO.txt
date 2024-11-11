@@ -1,0 +1,21 @@
+FIFO 
+LIFO
+
+Elem típusa : double
+
+Push(elem) - beteszi az elemet
+elem Pop() - kiveszi az elemet
+Clear() - kiüríti
+int Length() - megadja az elemek számát
+int GetSize() - FIFO/LIFO méretét adja vissza
+
+Konstruktor() - Default értékként 100 elemre hozzuk létre
+Konstruktor(meret) - megadjuk, hogy hány elem fér bele (kapacitás)
+
+
+Extrák:
+Reverse() - Megfordítja az elemeket
+Sort() - Rendezi a benne lévő elemeket (növekvő sorrendben)
+
+
+Mit használhat? Array
